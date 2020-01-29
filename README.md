@@ -23,7 +23,7 @@ git config --global user.name "FIRST_NAME LAST_NAME"
 git config --global user.email "MY_NAME@example.com"
 
 ### git clone
-```
+```console
 usuario@mdebian10:~/prj$ git config --global user.name "Jose Gómez"
 usuario@mdebian10:~/prj$ git config --global user.email "ango.ies@gmail.com"
 usuario@mdebian10:~/prj$ git clone https://github.com/angoies/github-pages.git
