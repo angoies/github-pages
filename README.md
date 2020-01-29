@@ -1,28 +1,31 @@
 # github-pages
+Nota: el uso b·sico de git se explica en otro mÛdulo.
 
-## Tener cuenta en github
+## 1. Tener una cuenta en github
 https://github.com/
 
-## Crear repositorio de una determinada forma para usar github pages
+## 2. Crear en github repositorio para usar github pages
 https://help.github.com/en/github/working-with-github-pages
 
-Crear repositorio, activar en settings la opci√≥n  github pages sobre rama master
-=> Proporciona URL para ver el sitio web que crearemos, 
- en este tutorial => https://angoies.github.io/github-pages/
+* Crear repositorio
+* Activar en settings la opciÛn github pages sobre rama master
+  * Proporciona URL para ver el sitio web que crearemos, En este tutorial https://angoies.github.io/github-pages/
 
-Anotar url para clonar repositorio (en bot√≥n clone o download)
-  en este tutorial => git clone https://github.com/angoies/github-pages.git
+* Anotar url para clonar repositorio (en botÛn clone o download)
+  * en este tutorial => git clone https://github.com/angoies/github-pages.git
 
-## Clonar en vscode el repositorio..
+## 3. Clonar en vscode el repositorio
 
-### necesario git instalado y configurado: user and email..
-apt install git
+### 3.1 necesario tener git instalado y configurado:
+```console
+$ apt install git
 // Set your username:
-git config --global user.name "FIRST_NAME LAST_NAME"
+$ git config --global user.name "FIRST_NAME LAST_NAME"
 // Set your email address:
-git config --global user.email "MY_NAME@example.com"
+$ git config --global user.email "MY_NAME@example.com"
+```
 
-### git clone
+### 3.2 Clonar 
 ```console
 usuario@mdebian10:~/prj$ git config --global user.name "Jose G√≥mez"
 usuario@mdebian10:~/prj$ git config --global user.email "ango.ies@gmail.com"
@@ -38,25 +41,22 @@ drwxr-xr-x  3 usuario usuario 4096 ene 28 21:07 .
 drwxr-xr-x 10 usuario usuario 4096 ene 28 21:00 ..
 drwxr-xr-x  3 usuario usuario 4096 ene 28 21:07 github-pages
 usuario@mdebian10:~/prj$ code github-pages/
-
 ```
 
-## En vscode
-al iniciar code con el nombre del directorio cloando, detecta los ficheros de congfiguraci√≥n git, etc..
-enb barta lateral izquierda est√° la opci√≥n source control: git
-### Crear una p√°gina index.html
-ctrl+N, etc...
-A√±adir (en SC, +)
-commit con mensaje
-Se actuliza resposotiro lcoal, no remoto..
+## 4. Trabajando en vscode
+Al iniciar code con el nombre del directorio clonado detecta los ficheros de configuraciÛn de git, etc.
+En barra de activades lateral est· la opciÛn source control: git
 
-hacer push.. pide usuario y clalve..
-?? que est√© en confiuraci√≥n?
+Unresumen r·pido: https://code.visualstudio.com/docs/editor/versioncontrol
 
+### Crear una p·gina index.html
+Nuevo fichero, etc...
+AÒadir al stage, commit con mensaje. REcordaemos que se actualiza repositorio local, no remoto.
 
-https://code.visualstudio.com/docs/editor/versioncontrol
+Neceitamos hacer  push, y nos pide usuario y clave
 
 https://help.github.com/en/github/using-git/caching-your-github-password-in-git
 
 
-## ver p√°gina online
+### Comprobar la p·gina en 
+https://angoies.github.io/github-pages/
