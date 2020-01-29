@@ -23,7 +23,7 @@ git config --global user.name "FIRST_NAME LAST_NAME"
 git config --global user.email "MY_NAME@example.com"
 
 ### git clone
-
+```
 usuario@mdebian10:~/prj$ git config --global user.name "Jose Gómez"
 usuario@mdebian10:~/prj$ git config --global user.email "ango.ies@gmail.com"
 usuario@mdebian10:~/prj$ git clone https://github.com/angoies/github-pages.git
@@ -38,6 +38,8 @@ drwxr-xr-x  3 usuario usuario 4096 ene 28 21:07 .
 drwxr-xr-x 10 usuario usuario 4096 ene 28 21:00 ..
 drwxr-xr-x  3 usuario usuario 4096 ene 28 21:07 github-pages
 usuario@mdebian10:~/prj$ code github-pages/
+
+```
 
 ## En vscode
 al iniciar code con el nombre del directorio cloando, detecta los ficheros de congfiguración git, etc..
