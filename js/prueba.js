@@ -1,3 +1,3 @@
 // prueba.js
 
-console.log("probando...")
+console.log("probando...");
