@@ -6,11 +6,11 @@ https://github.com/
 ## Crear repositorio de una determinada forma para usar github pages
 https://help.github.com/en/github/working-with-github-pages
 
-Crear repositorio, activar en settings la opciÛn  github pages sobre rama master
-Proporciona URL para ver el sitio web que crearemos, 
+Crear repositorio, activar en settings la opci√≥n  github pages sobre rama master
+=> Proporciona URL para ver el sitio web que crearemos, 
  en este tutorial => https://angoies.github.io/github-pages/
 
-Anotar url para clonar repositorio (en botÛn clone o download)
+Anotar url para clonar repositorio (en bot√≥n clone o download)
   en este tutorial => git clone https://github.com/angoies/github-pages.git
 
 ## Clonar en vscode el repositorio..
@@ -24,7 +24,7 @@ git config --global user.email "MY_NAME@example.com"
 
 ### git clone
 ```
-usuario@mdebian10:~/prj$ git config --global user.name "Jose GÛmez"
+usuario@mdebian10:~/prj$ git config --global user.name "Jose G√≥mez"
 usuario@mdebian10:~/prj$ git config --global user.email "ango.ies@gmail.com"
 usuario@mdebian10:~/prj$ git clone https://github.com/angoies/github-pages.git
 Clonando en 'github-pages'...
@@ -42,16 +42,16 @@ usuario@mdebian10:~/prj$ code github-pages/
 ```
 
 ## En vscode
-al iniciar code con el nombre del directorio cloando, detecta los ficheros de congfiguraciÛn git, etc..
-enb barta lateral izquierda est· la opciÛn source control: git
-### Crear una p·gina index.html
+al iniciar code con el nombre del directorio cloando, detecta los ficheros de congfiguraci√≥n git, etc..
+enb barta lateral izquierda est√° la opci√≥n source control: git
+### Crear una p√°gina index.html
 ctrl+N, etc...
-AÒadir (en SC, +)
+A√±adir (en SC, +)
 commit con mensaje
 Se actuliza resposotiro lcoal, no remoto..
 
 hacer push.. pide usuario y clalve..
-?? que estÈ en confiuraciÛn?
+?? que est√© en confiuraci√≥n?
 
 
 https://code.visualstudio.com/docs/editor/versioncontrol
@@ -59,4 +59,4 @@ https://code.visualstudio.com/docs/editor/versioncontrol
 https://help.github.com/en/github/using-git/caching-your-github-password-in-git
 
 
-## ver p·gina online
+## ver p√°gina online
