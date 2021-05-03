@@ -89,5 +89,9 @@ To https://github.com/angoies/github-pages.git
 ~/github-pages$ 
 ```
 
+Nota: In July, we announced our intent to require the use of token-based authentication (for example, a personal access, OAuth, or GitHub App installation token) for all authenticated Git operations. Beginning August 13, 2021, we will no longer accept account passwords when authenticating Git operations on GitHub.com.
+https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/
+    
+    
 ### Comprobar la página en 
 https://angoies.github.io/github-pages/
